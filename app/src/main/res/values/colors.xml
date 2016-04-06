@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#CC1819</color>
+    <color name="colorPrimaryDark">#a71419</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="breakfast">#009688</color>
+    <color name="lunch">#FF9800</color>
+    <color name="snacks">#9C27B0</color>
+    <color name="dinner">#F44336</color>
+    <color name="accent_dark">#ff2929</color>
+    <color name="accent">#ff5252</color>
+    <color name="secondary_text">#727272</color>
+</resources>

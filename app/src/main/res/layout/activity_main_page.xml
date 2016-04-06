@@ -1,0 +1,114 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/cladmin"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/ll_dayafter"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar_day_after"
+            layout="@layout/toolbar" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breakfast:"
+            android:id="@+id/breakfast"
+            android:layout_marginTop="128dp"
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="28dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/breakfastvalue"
+            android:textSize="20dp"
+            android:layout_alignBottom="@+id/breakfast"
+            android:layout_toEndOf="@+id/breakfast"
+            android:layout_marginStart="70dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunch:"
+            android:id="@+id/lunch"
+            android:layout_marginTop="48dp"
+            android:textSize="30dp"
+            android:layout_below="@+id/breakfast"
+            android:layout_alignStart="@+id/breakfast" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/lunchvalue"
+            android:layout_alignBottom="@+id/lunch"
+            android:layout_alignStart="@+id/breakfastvalue"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snacks:"
+            android:id="@+id/snacks"
+            android:layout_marginTop="48dp"
+            android:textSize="30dp"
+            android:layout_below="@+id/lunch"
+            android:layout_alignStart="@+id/lunch" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/snacksvalue"
+            android:layout_alignBottom="@+id/snacks"
+            android:layout_alignStart="@+id/lunchvalue"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinner:"
+            android:id="@+id/dinner"
+            android:layout_marginTop="59dp"
+            android:textSize="30dp"
+            android:layout_below="@+id/snacks"
+            android:layout_alignStart="@+id/snacks" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:layout_alignBottom="@+id/dinner"
+            android:layout_alignStart="@+id/snacksvalue"
+            android:id="@+id/dinnervalue"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of student not coming today:-"
+            android:id="@+id/textView"
+            android:layout_marginBottom="44dp"
+            android:textSize="20dp"
+            android:layout_above="@+id/breakfastvalue"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/refresh"
+        android:title="Refresh"
+        app:showAsAction="always" />
+    <item android:id="@+id/likedislikeweek1"
+        android:title="L/D Week1" />
+
+    <item android:id="@+id/likedislikeweek2"
+        android:title="L/D Week2" />
+
+    <item android:id="@+id/ping"
+        android:title="Not Coming" />
+    <item android:id="@+id/logout"
+        android:title="Logout" />
+
+</menu>
